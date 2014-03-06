@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="user" method="upgrade">
+    <name>plg_user_domainrestriction</name>
+    <author>Michael Richey</author>
+    <creationDate>March 2011</creationDate>
+    <copyright>Copyright (C) 2005 - 2011 Michael Richey. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>authemail@richeyweb.com</authorEmail>
+    <authorUrl>www.richeyweb.com</authorUrl>
+    <version>2.0</version>
+    <description>PLG_USER_DOMAINRESTRICTION_XML_DESCRIPTION</description>
+    <files>
+        <folder>fields</folder>
+        <filename plugin="domainrestriction">domainrestriction.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <media folder="media" destination="plg_user_domainrestriction">
+        <folder>js</folder>
+        <filename>index.html</filename>
+    </media>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_user_domainrestriction.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_user_domainrestriction.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="allowed" addfieldpath="plugins/user/domainrestriction/fields">
+                <field name="tld" type="tlds" 
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_TLDS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_TLDS_LABEL"
+                />
+                <field name="domain" type="domains" 
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_DOMAINS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_DOMAINS_LABEL"
+                />
+                <field name="email" type="emails"
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_EMAILS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_EMAILS_LABEL"
+                />
+                <field name="bulktype" type="radio" class="btn-group bulktype" default="domain"
+                        description="PLG_USER_DOMAINRESTRICTION_BULKTYPE_DESC"
+                        label="PLG_USER_DOMAINRESTRICTION_BULKTYPE_LABEL"
+                >
+                        <option value="tld">PLG_USER_DOMAINRESTRICTION_TLD</option>
+                        <option value="domain">PLG_USER_DOMAINRESTRICTION_DOMAIN</option>
+                        <option value="email">PLG_USER_DOMAINRESTRICTION_EMAIL</option>
+                </field>
+                <field name="bulk" type="textarea" class="bulk" default=""
+                       description="PLG_USER_DOMAINRESTRICTION_BULK_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_BULK_LABEL"
+                />                
+            </fieldset>
+            <fieldset name="disallowed" addfieldpath="plugins/user/domainrestriction/fields">
+                <field name="badtld" type="tlds" 
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_BADTLDS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_BADTLDS_LABEL"
+                />
+                <field name="baddomain" type="domains" 
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_BADDOMAINS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_BADDOMAINS_LABEL"
+                />
+                <field name="bademail" type="emails"
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_BADEMAILS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_BADEMAILS_LABEL"
+                />
+                <field name="badbulktype" type="radio" class="btn-group bulktype" default="domain"
+                        description="PLG_USER_DOMAINRESTRICTION_BULKTYPE_DESC"
+                        label="PLG_USER_DOMAINRESTRICTION_BULKTYPE_LABEL"
+                >
+                        <option value="tld">PLG_USER_DOMAINRESTRICTION_TLD</option>
+                        <option value="domain">PLG_USER_DOMAINRESTRICTION_DOMAIN</option>
+                        <option value="email">PLG_USER_DOMAINRESTRICTION_EMAIL</option>
+                </field>
+                <field name="badbulk" type="textarea" class="bulk" default=""
+                       description="PLG_USER_DOMAINRESTRICTION_BULK_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_BULK_LABEL"
+                />         
+            </fieldset>
+            <fieldset name="advanced" addfieldpath="plugins/user/domainrestriction/fields">
+                <field type="autogroups" name="autogroups"
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_AUTOGROUPS_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_AUTOGROUPS_LABEL"/>
+                <field type="emails" name="excludeauto"
+                       default="W10K"
+                       description="PLG_USER_DOMAINRESTRICTION_EXCLUDEAUTO_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_EXCLUDEAUTO_LABEL" />
+                <field type="usergroup" name="excludegroup" multiple="true"
+                       description="PLG_USER_DOMAINRESTRICTION_EXCLUDEGROUP_DESC"
+                       label="PLG_USER_DOMAINRESTRICTION_EXCLUDEGROUP_LABEL" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

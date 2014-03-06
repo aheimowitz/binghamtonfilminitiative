@@ -1,0 +1,105 @@
+/**
+ * ExtraWatch - A real-time ajax monitor and live stats
+ * @package ExtraWatch
+ * @version 1.2.18
+ * @revision 63
+ * @license http://www.gnu.org/licenses/gpl-3.0.txt 	GNU General Public License v3
+ * @copyright (C) 2012 by CodeGravity.com - All rights reserved!
+ * @website http://www.codegravity.com
+ */
+
+/* -- General styles ------------------------------ */
+
+body {
+  margin: 10px;
+  padding: 0;
+  background: #fff;
+  padding-bottom: 1px;
+
+  font-size: 11px;
+}
+
+body, td, th {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  height: 95%;
+}
+
+#minwidth {
+  min-width: 960px;
+}
+
+.clr {
+  clear: both;
+  overflow: hidden;
+  height: 0;
+}
+
+a, img {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0 none;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 8px;
+  color: #0B55C4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+a:link {
+  color: #0B55C4;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0B55C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* drupal */
+table td, table th {
+vertical-align: top;
+padding: 0px;
+border: 0;
+color: black;
+}
+
+/* drupal */
+tr td:last-child {
+border-right: 0px solid #BEBFB9;
+}
+
+/* drupal */
+table {
+width: 100%;
+font-size: 0.923em;
+margin: 0 0 px;
+border: 0px solid #BEBFB9;
+}
+
+.extraWatchBarImg {
+    height: 10px;
+}

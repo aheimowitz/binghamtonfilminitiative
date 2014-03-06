@@ -1,0 +1,176 @@
+ExtraWatch 2.2 license, Terms & Conditions of usage
+
+Please read carefully:
+General
+This component is licensed under the GNU GPL license and comes with absolutely
+NO WARRANTY and NO SUPPORT. You read this license and agree to terms and
+conditions of this license.
+
+    * You also agree that author is not responsible for any possible problems
+    and consequences of using this software
+    * You also agree to use it on your own responsibility, respecting all the
+    laws applicable for your country and countries of your visitors
+    * You also agree to respect the privacy of your visitors by placing a
+    notice into your Privacy policy page, that your site uses this software.
+    * You also agree that you can be informed via an email you provided during
+     registration about the information about this software. This makes it
+     easier when there is a need to inform you about the latest versions
+     and/or possible security updates.
+
+Security
+            This software has been thoroughly and manually tested for several
+            vulnerabilities. Further details are in security_certificate.pdf
+            included in the downloaded package.
+
+License key
+            License key is issued per domain. After the purchase via paypal,
+            user is redirected to codegravity.com, where he fills his domain
+            name.
+            The system generated the key based on this domain name and sends
+            it via email. The key works for all sub-domains as well.
+            If user made the purchase and received no license key, it is
+            because he interrupted the process and was not returned back to
+            codegravity.com.
+            In this case, the use can request the correct license key from
+            initial license activation screen. User agree not to abuse this
+            mechanism.
+            Transfer of license to other domain is permitted in special
+            cases.
+            User must prove that the age of domain to transfer the license
+            to is newer than the original one the license key was issued for.
+
+Updates
+            License owner has right for free lifetime updates of this software.
+            There is an automatic update mechanism available, but in case of
+            huge differences and incompatibilities between two versions,
+            user has to install this software without any support from
+            supplier's side.
+
+Refund policy
+            User can ask for refund of his purchase for any reason within the
+            30-day period, using paypal's dispute mechanism.
+            Refund may not be immediate, but we are doing them as quicky as
+            possible.
+            After the refund is made, user must uninstall the extension and
+            is not allowed to use it, except cases when supplier permitted it.
+            If user still continues to use this extension, supplier can send
+            an invoice to pay for the license.
+
+Support
+            Users can submit the support tickets via the ticketing system on
+            codegravity.com providing the paypal transaction id.
+            Questions sent directly via email can be overlooked, that's why it
+            is strongly recommended to use the ticketing system for all
+            communication.
+            We care about our users, but we reserve a right not to solve
+            every ticket,
+            especially those which are not related to software defects or
+            licensing.
+            User must first check for latest version of the software - usually
+            the new update contains the needed fixes.
+            Solving the issue can be a long process and because sometimes the
+            issue cannot be reproduced locally, user might be asked to create
+            the temporary
+            administration access for developers to be able to reproduce the
+            problem.
+            User is not obligated to create this access.
+            If permitted, user verified that he or his web hosting provider has
+            the very latest backup of the database and affected remote root
+            directory.
+            Developers inform user about every change. Some changes may result
+            in a temporary downtime of website until the issue is fixed.
+
+Reviews
+            We never ask users to submit positive review in Joomla Extensions
+            Directory in return for some value. Users can freely share their
+            opinion on this software,
+            but submitting a review which is against these terms and conditions
+            user agreed to, can be treated as defamation with possible
+            consequences.
+
+Applicable law / authorized court
+
+			These Terms & Conditions will be governed by Slovak law.
+			Slovak law is applicable to all legal relationships between software provider and the user. 
+			Any legal issues that might arise from these agreements or agreements derived from these agreements, will be settled in Slovak court. The procedure will be conducted in the Slovak language. 
+
+Acknowledgments:
+IP-to-Country Database
+
+    * Copyright (c) 2003 Direct Information Pvt. Ltd. All Rights Reserved.
+
+      \"ExtraWatch uses the IP-to-Country Database
+      provided by WebHosting.Info (http://www.webhosting.info),
+      available from http://ip-to-country.webhosting.info.\"
+
+      BECAUSE THE DATABASE IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR
+      THE DATABASE, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN
+      OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+      PROVIDE THE DATABASE \"AS IS\" WITHOUT WARRANTY OF ANY KIND, EITHER
+      EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+      WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE OR ANY
+       WARRANTIES REGARDING THE CONTENTS OR ACCURACY OF THE WORK.
+
+      IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+      WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+      REDISTRIBUTE THE DATABASE AS PERMITTED ABOVE, BE LIABLE TO YOU FOR
+      DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL
+      DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE DATABASE, EVEN IF
+      SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+      DAMAGES.
+
+Springy
+
+    * Copyright (c) 2010 Dennis Hotson
+
+      Permission is hereby granted, free of charge, to any person obtaining a
+      copy of this software and associated documentation files
+      (the \"Software\"), to deal in the Software without restriction, including
+      without limitation the rights to use, copy, modify, merge, publish,
+      distribute, sublicense, and/or sell copies of the Software, and to permit
+      persons to whom the Software is furnished to do so, subject to the
+      following conditions: The above copyright notice and this permission
+      notice shall be included in all copies or substantial portions of
+      the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY
+      KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+      MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+      IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+      CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+      OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR
+      THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+OpenLayers
+
+    * This license applies to all code and content in the 'branches', 'trunk',
+    and 'project' directories of the Openlayers code repository at
+    svn.openlayers.org, and applies to all release of OpenLayers later than 2.5.
+    Copyright (c) 2005-2010 OpenLayers Contributors. See authors.txt for full
+    list.
+    All rights reserved. Redistribution and use in source and binary forms,
+    with or without modification, are permitted (subject to the limitations
+    in the disclaimer below) provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright notice,
+    this list of conditions and the following disclaimer. * Redistributions
+    in binary form must reproduce the above copyright notice, this list of
+    conditions
+    and the following disclaimer in the documentation and/or other materials
+    provided with the distribution. * Neither the name of OpenLayers nor the
+    names of its contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission. NO EXPRESS OR
+    IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE.
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+    OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Enjoy using ExtraWatch
+CodeGravity.com, author
+www.codegravity.com
+Copyright �2006-2012 by CodeGravity.com

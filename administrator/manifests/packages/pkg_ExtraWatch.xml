@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0">
+    <name>ExtraWatch</name>
+    <creationDate>2014</creationDate>
+    <author>CodeGravity.com - http://www.extrawatch.com</author>
+    <copyright>Copyright 2006-2014 by CodeGravity.com</copyright>
+    <authorEmail>support@extrawatch.com</authorEmail>
+    <authorUrl>http://www.extrawatch.com</authorUrl>
+    <packagename>ExtraWatch</packagename>
+    <version>2.2.1597 FREE</version>
+    <license>http://www.gnu.org/licenses/gpl-3.0.txt GNU/GPLv3</license>
+    <url>http://www.extrawatch.com</url>
+    <packager>CodeGravity.com - http://www.extrawatch.com</packager>
+    <packagerurl>http://www.extrawatch.com</packagerurl>
+    <description>
+        <b>ExtraWatch component and modules installed successfully</b>
+    </description>
+    <update>http://www.extrawatch.com/update/extrawatch/2.2/FREE/extrawatch-update.xml</update>
+    <files>
+        <file type="component" id="extrawatch" >com_extrawatch.zip</file>
+        <file type="module" id="extrawatch" client="site">mod_extrawatch_agent.zip</file>
+        <file type="module" id="extrawatch" client="site">mod_extrawatch_users.zip</file>
+        <file type="module" id="extrawatch" client="site">mod_extrawatch_visitors.zip</file>
+    </files>
+    <scriptfile>script.pkg.extrawatch.php</scriptfile>
+</extension>

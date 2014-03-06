@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="module" version="3.0" method="upgrade">
+    <name>ExtraWatch Visitors Module</name>
+    <author>CodeGravity.com - http://www.extrawatch.com</author>
+    <creationDate>2014</creationDate>
+    <copyright>www.extrawatch.com</copyright>
+    <license>http://www.gnu.org/licenses/gpl-3.0.txt GNU/GPLv3</license>
+    <authorEmail>support@extrawatch.com</authorEmail>
+    <authorUrl>www.extrawatch.com</authorUrl>
+    <version>2.2.1597 FREE</version>
+    <description>
+        INSTRUCTIONS: This module inserts a small statistical information about where did the visitors came from
+        (Countries) and also some information about amount of visits for today, yesterday, this week, last week, this
+        month and total. It's best to publish it somewhere on the left or right side of your website.
+    </description>
+    <files>
+        <filename module="mod_extrawatch_visitors">mod_extrawatch_visitors.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="Module Parameters" description="Module settings">
+                <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix"
+                       description="Module class suffix"></field>
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+        <server type="extension" priority="1" name="ExtraWatch Update Site">http://www.extrawatch.com/update/extrawatch/2.2/FREE/extrawatch-update.xml</server>
+    </updateservers>
+</extension>

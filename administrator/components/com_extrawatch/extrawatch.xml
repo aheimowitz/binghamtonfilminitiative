@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="3.0" method="upgrade">
+
+    <name>ExtraWatch</name>
+    <creationDate>2014</creationDate>
+    <author>CodeGravity.com - http://www.extrawatch.com</author>
+    <copyright>Copyright 2006-2014 by CodeGravity.com</copyright>
+    <authorEmail>support@extrawatch.com</authorEmail>
+    <authorUrl>http://www.extrawatch.com</authorUrl>
+    <version>2.2.1597 FREE</version>
+    <license>http://www.gnu.org/licenses/gpl-3.0.txt GNU/GPLv3</license>
+    <description>
+        ExtraWatch is an AJAX component and module for Joomla CMS that allows you to watch
+        your website visitors and bots in real-time from the administration menu. Specially
+        their IP addresses, countries they come from, geographical location on a map, which
+        pages they are viewing, their browser and operating system, it creates daily and
+        all-time stats from these information plus unique, pageload and total hits statistics.
+        Furthermore, you can block harmful IP addresses, see blocked attempts stats, evaluate
+        the trend charts, and create goals based on many parameters. In the frontend, it can
+        show the top countries information and visit counts for certain periods of time.
+    </description>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+            <file driver="mysql">sql/install.mysql.utf8.sql</file>
+            <file driver="mysqli" charset="utf8">sql/install.mysql.utf8.sql</file>
+            <file driver="mysqli">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+
+    <!-- Site Main File Copy Section -->
+    <!-- Note the folder attribute: This attribute describes the folder
+to copy FROM in the package to install therefore files copied
+in this section are copied from /site/ in the package -->
+    <files>
+        <folder>ajax</folder>
+        <folder>css</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+        <folder>lang</folder>
+        <folder>log</folder>
+        <folder>src</folder>
+        <folder>view</folder>
+        <folder>sql</folder>
+        <folder>data</folder>
+
+        <filename>config.php</filename>
+        <filename>includes.php</filename>
+
+        <filename>extrawatch.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+
+        <filename>index.html</filename>
+        <filename>INSTALL.txt</filename>
+        <filename>LICENSE.txt</filename>
+        <filename>README.txt</filename>
+        <filename>TERMS_AND_CONDITIONS.txt</filename>
+        <filename>timezone.php</filename>
+
+        <folder>css/images</folder>
+
+
+    </files>
+
+
+    <installfile>install.extrawatch.php</installfile>
+    <uninstallfile>uninstall.extrawatch.php</uninstallfile>
+
+    <administration>
+        <menu task="default" img="components/com_extrawatch/img/icons/extrawatch-logo-16x16.gif">ExtraWatch</menu>
+        <submenu>
+            <menu
+                    link="option=com_extrawatch"
+                    img="components/com_extrawatch/img/icons/map_icon.gif"
+                    alt="Live Stats">Live Stats
+            </menu>
+            
+            <menu
+                    link="option=com_extrawatch&amp;task=graphs"
+                    img="components/com_extrawatch/img/icons/trend_icon.gif"
+                    alt="Graphs &amp; Trends">Graphs &amp; Trends
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=goals"
+                    img="components/com_extrawatch/img/icons/goal.gif"
+                    alt="Goals">Goals
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=history"
+                    img="components/com_extrawatch/img/icons/history.png"
+                    alt="Visit History">Visit History
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=antiSpam"
+                    img="components/com_extrawatch/img/icons/antispam.png"
+                    alt="Anti-spam &amp; Blocking">Anti-spam / Blocking
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=emails"
+                    img="components/com_extrawatch/img/icons/emails.png"
+                    alt="Email Reports">Email Reports
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=license"
+                    img="components/com_extrawatch/img/icons/license.png"
+                    alt="Your License">Your License
+            </menu>
+            
+            <menu
+                    link="option=com_extrawatch&amp;task=settings"
+                    img="components/com_extrawatch/img/icons/settings.gif"
+                    alt="Settings">Settings
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=update"
+                    img="components/com_extrawatch/img/icons/update.png"
+                    alt="Update">Update
+            </menu>
+            <menu
+                    link="option=com_extrawatch&amp;task=credits"
+                    img="components/com_extrawatch/img/icons/credits.png"
+                    alt="Credits">Credits
+            </menu>
+        </submenu>
+
+
+        <files>
+            <folder>sql</folder>
+            <folder>img</folder>
+            <folder>img/icons/</folder>
+            <folder>img/flags/</folder>
+            <filename>script.extrawatch.php</filename>
+            <filename>install.extrawatch.php</filename>
+            <filename>uninstall.extrawatch.php</filename>
+            <filename>admin.extrawatch.php</filename>
+            <filename>index.html</filename>
+        </files>
+    </administration>
+
+    <scriptfile>script.extrawatch.php</scriptfile>
+
+    <updateservers>
+        <server type="extension" priority="1" name="ExtraWatch Update Site">http://www.extrawatch.com/update/extrawatch/2.2/FREE/extrawatch-update.xml</server>
+    </updateservers>
+
+</extension>
